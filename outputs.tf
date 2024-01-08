@@ -24,4 +24,4 @@ output "event_grid_endpoint" {
 }
 
 #-----------------------------------------------------------
-# Roman Levchenko | rlevchenko.com
+# Roman Levchenko | DAC_Devops.com

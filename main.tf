@@ -359,4 +359,4 @@ resource "azurerm_eventgrid_domain" "rlmvp-svc-eventgrid" {
 }
 
 #-----------------------------------------------------------
-# Roman Levchenko | rlevchenko.com
+# Naagarjun

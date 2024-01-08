@@ -14,7 +14,7 @@ az_region = "West Europe"
 # Azure tags
 
 az_tags = {
-  environment = "rlevchenko"
+  environment = "DACtest"
 }
 
 # Naming convention
@@ -42,7 +42,7 @@ sqldb            = true  # Azure SQL Database
 
 
 #--------------------------------------------------------------
-# Service Bus settings | rlevchenko.com
+# Service Bus settings | DACtest.com
 #--------------------------------------------------------------
 
 
@@ -75,7 +75,7 @@ az_sb_sub_deadlettering = false
 az_sb_sub_sessions      = false # Enable Sessions?
 
 #--------------------------------------------------------------
-# Data Lake Storage settings | rlevchenko.com
+# Data Lake Storage settings | DACtest.com
 #--------------------------------------------------------------
 
 az_stor_acc_tier  = "Standard"  # Standard or Premium
@@ -85,20 +85,20 @@ az_stor_tier      = "Hot"       # Tier (Cold/Hot/Archive)
 az_stor_secure    = true        # Secured Storage or not? (HTTPS only)
 
 #--------------------------------------------------------------
-# Data Factory settings | rlevchenko.com
+# Data Factory settings | DACtest.com
 #--------------------------------------------------------------
 
-git_account  = "value here" # optional (if "Enable Git" required)
-git_branch   = "value here" # optional (if "Enable Git" required)
-git_hostname = "value here" # optional (if "Enable Git" required)
-git_repo     = "value here" # optional (if "Enable Git" required)
+git_account  = "IamNagarjun" # optional (if "Enable Git" required)
+git_branch   = "naagarjuna" # optional (if "Enable Git" required)
+git_hostname = "https://github.com/IamNagarjun/" # optional (if "Enable Git" required)
+git_repo     = "terraform-azure-data" # optional (if "Enable Git" required)
 git_folder   = "value here" # optional (if "Enable Git" required)
 
 # Azure DataBricks
 az_spark_sku = "standard" # "standard/premium"
 
 #--------------------------------------------------------------
-# Event Hubs settings | rlevchenko.com
+# Event Hubs settings | DACtest.com
 #--------------------------------------------------------------
 
 az_hubns_sku      = "Standard" # Event Hubs SKU (Basic/Standard)
@@ -110,7 +110,7 @@ az_hub_retention  = "1"        # Event Hub Message Retention
 az_hub_capture    = "false"    # Enable capture to Azure storage?
 
 #--------------------------------------------------------------
-# Function App settings | rlevchenko.com
+# Function App settings | DACtest.com
 #--------------------------------------------------------------
 
 az_appsvc_sku        = "Dynamic"  # AppService Plan SKU
@@ -122,30 +122,30 @@ az_stor_funcapp_tier = "Standard" # Storage account settings
 az_stor_funcapp_repl = "LRS"      # Storage replication type
 
 #--------------------------------------------------------------
-# Data Explorer (kusto) settings | rlevchenko.com
+# Data Explorer (kusto) settings | DACtest.com
 #--------------------------------------------------------------
 az_kusto_sku   = "Standard_D11_v2" # Compute SKUs
 az_kusto_nodes = "2"               # Capacity (node counts)
 
 #--------------------------------------------------------------
-# Analysis Server settings | rlevchenko.com
+# Analysis Server settings | DACtest.com
 #--------------------------------------------------------------
 az_stor_ansrv_tier = "Standard"          # Storage Account settings
 az_stor_ansrv_repl = "LRS"               # Replication Type
 az_ansrv_sku       = "S0"                # Analysis Server SKU
-az_ansrv_users     = ["inbox@rlevchenko.com"] # List of emails/UPNs of admin users
+az_ansrv_users     = ["inbox@DACtest.com"] # List of emails/UPNs of admin users
 az_ansrv_powerbi   = "true"              # Whether PowerBi be allowed to access or not
 az_stor_ssa_start  = "2021-06-07"        # Start date of the SSA token (used for BackUp storage)
 az_stor_ssa_end    = "2021-09-10"        # Expiration date of the SSA token (used for BackStorage)
 
 #--------------------------------------------------------------
-# Event Grid settings | rlevchenko.com
+# Event Grid settings | DACtest.com
 #--------------------------------------------------------------
 
 az_eventgrid_schema = "EventGridSchema" # EventGridSchema or CloudEventV01Schema or CustomEventSchema
 
 #--------------------------------------------------------------
-# SQL Server settings | rlevchenko.com
+# SQL Server settings | DACtest.com
 #--------------------------------------------------------------
 
 az_sqlserver_name = "rlsqlsrv01" # SQL Server Name (optional: random used)
@@ -169,4 +169,4 @@ az_sql_db_sku_name = "ElasticPool" # SQL DB SKU Name
 az_sql_db_maxsize = "5" # SQL DB Max Size in GB
 
 #-----------------------------------------------------------
-# Roman Levchenko | rlevchenko.com
+# Roman Levchenko | DACtest.com
